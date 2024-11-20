@@ -1365,4 +1365,24 @@ h1 {
 .join-button:hover {
     background-color: #333;
 }
-
+.start-button {
+    background-color: #007BFF; /* Azul vibrante */
+    color: white; /* Texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de letra */
+    cursor: pointer; /* Cursor de mano al pasar por encima */
+    transition: background-color 0.3s, transform 0.2s; /* Suavidad en cambios */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  }
+  
+  .start-button:hover {
+    background-color: #0056b3; /* Azul más oscuro al pasar por encima */
+    transform: scale(1.05); /* Efecto de ampliación */
+  }
+  
+  .start-button:active {
+    background-color: #004085; /* Azul aún más oscuro al hacer clic */
+    transform: scale(0.95); /* Efecto de reducción */
+  }
